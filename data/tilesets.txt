@@ -1,0 +1,152 @@
+sur1 {
+	area_name "Fire Temple"
+    area_label_frame 1
+    tile_graphics TileFireTemple
+    overlay_graphics Overlayscaves
+    background_graphics bgsolid
+	palette 1
+	
+	fx_shader lavaripples
+	fx_shader_mid lavaglow_temple
+	midfx_graphics SolidBox
+	midfx_layer 2
+
+    tile_particle_1 spark2
+    tile_particle_2 spark
+    tile_particle_3 smoke
+	tile_particle_4 debris_slow
+	tile_particle_5 ember_ring
+    global_particle_1 mist2
+    global_particle_2 embers
+	
+	decoration_1 TileCavesDeco1
+	decoration_2 TileCavesDeco2
+    
+	music [temple_intro.ogg, temple_loop.ogg]
+    ambience volcano.ogg
+	
+	sfx_file muteturretsandbuttons.txt
+	platform_physics "data/platformphysics_tomb.txt"
+	
+	art_alts [
+		[MiniFly, MiniWisp][Floater, FireballBig][Fireball, FireballTemple][ThwampGear, Screw]
+	]
+	
+	1 {
+			ambience_volume .4
+			global_particle_2 none
+	}
+	2 {
+			ambience_volume .7
+			global_particle_2 none
+	}
+	10 {
+			ambience_volume .7
+			global_particle_2 none
+	}
+	11 {
+			ambience_volume .4
+			global_particle_2 none
+	}
+	12 {
+			ambience_volume .7
+			global_particle_2 none
+	}
+	16 {
+			ambience_volume .7
+			global_particle_2 none
+	}
+	17 {
+			ambience_volume .7
+			global_particle_2 none
+	}
+	end {
+			ambience_volume .7
+	}
+}
+
+sur1x {
+	area_name "Fire Temple"
+    area_label_frame 1
+    tile_graphics TileFireTemple
+    overlay_graphics Overlayscaves
+    background_graphics bgsolid
+	palette 1
+	
+	fx_shader lavaripples
+	fx_shader_mid lavaglow_temple
+	midfx_graphics SolidBox
+	midfx_layer 2
+	
+	npc_1 NPC_TEMPLE1
+	npc_2 NPC_TEMPLE2
+	npc_3 NPC_TEMPLE3
+
+    tile_particle_1 spark2
+    tile_particle_2 spark
+    tile_particle_3 smoke
+	tile_particle_4 debris_slow
+	tile_particle_5 ember_ring
+    global_particle_1 mist2
+    global_particle_2 embers
+	
+	decoration_1 TileCavesDeco1
+	decoration_2 TileCavesDeco2
+	decoration_3 spark
+    
+	music [hmk_secret_intro.ogg, hmk_secret_loop.ogg]
+	stop_previous_music false
+	ambience volcano.ogg
+	
+	sfx_file muteturretsandbuttons.txt
+	platform_physics "data/platformphysics_tomb.txt"
+	
+	art_alts [
+		[MiniFly, MiniWisp][Floater, FireballBig][Fireball, FireballTemple][ThwampGear, Screw][ThwampEye, ThwampGear]
+	]
+	
+	1 {
+			ambience_volume .7
+			global_particle_2 none
+	}
+	2 {
+			ambience_volume .4
+			global_particle_2 none
+	}
+	3 {
+			ambience_volume .7
+			global_particle_2 none
+	}
+	4 {
+			ambience_volume .4
+			global_particle_2 none
+	}
+	5 {
+			ambience_volume .2
+			global_particle_2 none
+	}
+	6 {
+			npc_1 NPC_TEMPLE4
+			ambience_volume .7
+			global_particle_2 none
+	}
+	7 {
+			ambience_volume .4
+			global_particle_2 none
+	}
+	8 {
+			ambience_volume .3
+			global_particle_2 none
+	}
+	9 {
+			npc_1 NPC_TEMPLE5
+			ambience_volume .4
+			global_particle_2 none
+	}
+	11 {
+			npc_1 NPC_TEMPLE6
+	}
+	13 {
+			npc_1 NPC_TEMPLE7
+	}
+}

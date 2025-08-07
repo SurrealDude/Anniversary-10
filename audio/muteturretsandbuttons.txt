@@ -1,0 +1,507 @@
+SetName MuteTurretsAndButtons
+Folder sfx
+
+SoundEffectBaseConstants { #relevant group properties are multiplied by these
+    volume 1
+    pitch 1
+
+    pan_falloff_range [1, 54]
+    volume_falloff_range [10, 60]
+
+    distance_scale [1, 1] # scales x, y distance by following value (so sound spreads farther horizontally than vertically, etc)
+
+    falloff_mode linearsquare
+}
+
+SoundEffectGroups {
+    # Example {                                  # the name of the sound effect trigger for the engine to access (PlaySound("Example"))
+    #    files [file1.wav, file2.wav, file3.wav] # triggering this sound chooses 1 file from here at random
+    #    pitch 5                                 # shortcut for pitch_range [5,5]  (constant pitch)
+    #    volume 5                                # shortcut for volume_range [5,5] (constant volume)
+    #    pitch_range [.8, 1.2]                   # pitch randomized between .8 and 1.2
+    #    volume_range [.8, 1.2]                  # volume randomized between .8 and 1.2
+    #    falloff .5                              # multiplied by volume_falloff_range global setting
+    #    falloff_range [1, 1]                    # same but as a range [.5, 2] with a base settingh of [10, 20] results in a new range of [5, 40]
+    #    pan_falloff .5                          # multiplied by pan_falloff_range global setting (should not need)
+    #    pan_falloff_range [1, 1]                # same but as a range [.5, 2] with a base settingh of [10, 20] results in a new range of [5, 40] (should not need)
+    # }
+
+    #playersounds
+    Jump { #testlevels: anywhere
+        files [Jump-001.wav,Jump-002.wav,Jump-003.wav,Jump-004.wav]
+        volume .65
+        pitch_range [1, 1.2]
+    }
+
+    Collide { #testlevels: anywhere
+        files [LandSoft-001.wav,LandSoft-002.wav,LandSoft-003.wav,LandSoft-004.wav,LandSoft-005.wav,LandSoft-006.wav,LandSoft-007.wav,LandSoft-008.wav,LandSoft-009.wav]
+        volume .75
+        pitch_range [.8, 1.2]
+    }
+
+    LandSoft { #testlevels: anywhere
+        files [LandSoft-001.wav,LandSoft-002.wav,LandSoft-003.wav,LandSoft-004.wav,LandSoft-005.wav,LandSoft-006.wav,LandSoft-007.wav,LandSoft-008.wav,LandSoft-009.wav]
+        volume .9
+        pitch_range [.8, 1.2]
+    }
+
+    LandHard { #testlevels: anywhere
+        files [HardFall_v2.wav]
+        volume 1.2
+        pitch_range [.8, 1]
+    }
+
+    LedgeGrab { #testlevels: anywhere
+    files [Ledgegrab-001.wav,Ledgegrab-002.wav,Ledgegrab-003.wav,Ledgegrab-004.wav,Ledgegrab-005.wav,Ledgegrab-006.wav]
+        volume 1.2
+        pitch_range [1, 1.1]
+    }
+
+    Death { #testlevels: anywhere
+        files [death1_v2.wav,death2_v2.wav,death3_v2.wav,death4_v2.wav,death5_v2.wav,death6_v2.wav]
+        volume 1.2
+    }
+
+    UnderwaterDeath{
+        files[Drowndeath1.wav,Drowndeath2.wav,Drowndeath3.wav,Drowndeath4.wav,Drowndeath5.wav,Drowndeath6.wav,Drowndeath6.wav,Drowndeath7.wav,Drowndeath8.wav,Drowndeath9.wav]
+        volume 1.1
+    }
+
+    DrownDeath{
+        files[Drowndeath1.wav,Drowndeath2.wav,Drowndeath3.wav,Drowndeath4.wav,Drowndeath5.wav,Drowndeath6.wav,Drowndeath6.wav,Drowndeath7.wav,Drowndeath8.wav,Drowndeath9.wav]
+        volume 1.1
+}
+
+    Splash { #testlevels: 3-0
+        files [splash1.wav, splash2.wav, splash3.wav, splash4.wav, splash5.wav, splash6.wav, splash7.wav, splash8.wav, splash9.wav]
+        volume 1.5
+        pitch_range [.8, 1.2]
+        falloff .7
+    }
+
+    Boing { #testlevels: 2-7
+        files [boing1.wav, boing2.wav, boing3.wav]
+        volume 1
+        pitch_range [.8, 1.2]
+    }
+
+    EnemyBounce { #testlevels: 2-13
+        files [enembounce1.wav, enembounce2.wav, enembounce3.wav, enembounce4.wav]
+        volume 1.3
+        pitch_range [.8, 1.2]
+    }
+
+    LedgeJump {  #testlevels: anywhere
+        files [whoosh-001.wav,whoosh-002.wav,whoosh-003.wav,whoosh-004.wav,whoosh-005.wav,whoosh-006.wav]
+        volume .9
+        pitch_range [1, 1.2]
+    }
+    FastFall {  #testlevels: anywhere
+        files [whoosh-001.wav,whoosh-002.wav,whoosh-003.wav,whoosh-004.wav,whoosh-005.wav,whoosh-006.wav]
+        volume .8
+        pitch_range [.8, 1]
+    }
+    FastFall_Threshold {  #testlevels: anywhere
+        files [DoubleWhoosh.wav]
+        volume 1
+        pitch_range [.8, 1.2]
+    }
+
+    Drown1 {  #testlevels: 3-8, 6-4
+        files [Drown_v3-001.wav]
+        volume 1.2
+    }
+    Drown2 {  #testlevels: 3-8, 6-4
+        files [Drown_v3-002.wav]
+        volume 1.2
+    }
+    Drown3 {  #testlevels: 3-8, 6-4
+        files [Drown_v3-003.wav]
+        volume 1.2
+    }
+
+    BackWarp {  #testlevels: 1xd-2
+        files [backwarp3.wav, backwarp4.wav, backwarp5.wav, backwarp6.wav]
+        volume 1
+    }
+
+    CollectLife {  #testlevels: 1-1
+        files [SmallTumorv2.wav]
+        volume .9
+    }
+
+    CollectBigLife {
+        files [BigTumor.wav]
+        volume 1
+    }
+
+    CollectHead{
+        files [Collectible.wav]
+        volume 1.2
+    }
+
+    CollectBody{
+        files [Collectible.wav]
+        volume 1.2
+    }
+
+    CollectHeart{
+        files [Collectible.wav]
+        volume 1.2
+    }
+
+    CollectKey{
+        files [Keys.wav]
+        volume .8
+    }
+
+
+    WarpEnter {
+        files [WarpPoint.wav]
+        volume 1
+    }
+
+    WarpExit {
+        files [WarpExit.wav]
+        volume 1
+    }
+
+    CollectCart {
+        files [CartridgeCollect.wav]
+        volume 1
+    }
+
+    LandCloudHard {
+        files[CloudLandHard.wav]
+        volume 1.2
+        pitch_range [.8,1.2]
+    }
+
+    LandCloudSoft {
+        files[CloudLandSoft.wav]
+        volume 1.2
+        pitch_range [.8,1.2]
+    }
+    #environment sounds
+    Rumble {  #testlevels: 1-13, 1-16
+        files [RockRumble_v2-001.wav,RockRumble_v2-002.wav,RockRumble_v2-003.wav,RockRumble_v2-005.wav,RockRumble_v2-006.wav]
+        volume 1.2
+        pitch_range[.8,1.2]
+        falloff .85
+    }
+
+    CrashSoft {  #testlevels: 1-13, 1-16
+        files [CrashSoft-001.wav,CrashSoft-002.wav,CrashSoft-003.wav,CrashSoft-004.wav,CrashSoft-005.wav,CrashSoft-006.wav]
+        pitch_range [.8,1]
+        volume 1
+        falloff .9
+    }
+
+    CrashHard {  #testlevels: 1-13, 1-16
+        files [RockRumble-Crash-001.wav,RockRumble-Crash-002.wav,RockRumble-Crash-003.wav,RockRumble-Crash-004.wav]
+        volume 1
+        falloff 1
+    }
+
+    CrashThwamp {  #testlevels: 5a-17
+        files [CrashThwamp-001.wav,CrashThwamp-002.wav,CrashThwamp-003.wav]
+        pitch_range [.8, 1.2]
+        volume 1
+    }
+
+    CrashHellThwamp {  #testlevels: 5c-16
+        files [DemonCrashThwamp-001.wav,DemonCrashThwamp-002.wav,DemonCrashThwamp-003.wav]
+        pitch_range [.8, 1.2]
+        volume 1
+    }
+
+    Crumble {  #testlevels: 1-10, 6-13
+        files [Rock_Crumble-001.wav, Rock_Crumble-002.wav,Rock_Crumble-003.wav,Rock_Crumble-004.wav]
+        volume 1
+        pitch_range [.8, 1.2]
+    }
+
+    Click {  #testlevels: 5bxd-6
+        files [click1.wav, click2.wav, click3.wav]
+        volume 1
+        pitch_range [.8, 1.2]
+    }
+
+    RockSmash {  #testlevels: 4c-2
+        files [RockSmash-001.wav,RockSmash-002.wav,RockSmash-003.wav,RockSmash-004.wav]
+        volume 1.2
+        pitch_range [.8, 1]
+    }
+
+    MineExplode{
+        files[BouncyBomb.wav]
+        pitch_range [.8,1]
+        volume 1
+    }
+
+    TVTurnOn{
+        files [TV_On.wav]
+        volume .7
+    }
+
+    ConsoleUp{
+        files [TVup.wav]
+        volume .5
+        falloff 999
+        pan_falloff 999
+    }
+
+    ConsoleDown{
+        files [TVdown.wav]
+        volume .5
+        falloff 999
+        pan_falloff 999
+    }
+
+    MapOpen{
+        files [Map.wav]
+        falloff 999
+        pan_falloff 999
+    }
+
+    StevenMunch{
+        files [StevenHead.wav]
+        volume 1.2
+    }
+
+    SpikeToggle{
+        files[Spike-001.wav,Spike-002.wav,Spike-003.wav,Spike-004.wav]
+        volume 1
+        falloff 999
+        pan_falloff 999
+    }
+
+    BlockToggle{
+        files[BlockAppear.wav]
+        volume 0
+        falloff 999
+        pan_falloff 999
+    }
+
+    #misc enemy noises
+    BirdFlap {  #testlevels: 4a-7, 4a-8
+        files [BirdFlapLoop.wav,BirdFlapLoop2.wav]
+        volume 1
+        pitch_range [1, 1.2]
+        falloff .3
+    }
+
+    Caw {  #testlevels: 4a-7, 4a-8
+        files [BirdCall-001.wav,BirdCall-002.wav,BirdCall-003.wav,BirdCall-004.wav,BirdCall-005.wav]
+        volume .8
+        pitch_range [1, 1.2]
+    }
+
+    ChompIdle {  #testlevels: 5c-1, 5c-3
+        files [gasping.wav]
+        volume .7
+        pitch_range 1
+        falloff .33
+    }
+
+    ChompDash {  #testlevels: 5c-1, 5c-3
+        files [chompdash1.wav, chompdash2.wav, chompdash3.wav, chompdash4.wav, chompdash5.wav, chompdash6.wav]
+        volume 1
+        pitch_range [.8, 1.2]
+    }
+
+    DemonIdle {  #testlevels: 5c-10, 5cx-4
+        files [gurgling.wav]
+        volume .9
+        pitch_range 1
+        falloff .5
+    }
+
+    DemonGrowl {  #testlevels: 5c-10, 5cx-4
+        files [demongrowl1.wav, demongrowl2.wav, demongrowl3.wav, demongrowl4.wav, demongrowl5.wav, demongrowl6.wav, demongrowl7.wav]
+        volume .6
+        pitch_range [.8, 1.2]
+    }
+
+    DemonAttack {  #testlevels: 5c-10, 5cx-4
+        files [DemonAttack-001.wav]
+        volume 1
+        pitch_range [.8, 1.2]
+    }
+
+    Slither {  #testlevels: 2-2
+        files [SlugLoop.wav]
+        volume .7
+        pitch_range [.8, 1.2]
+
+        falloff .25
+    }
+
+    SlugCharge {  #testlevels: 2d-1, 2d-16
+        files [SlugCharge_v2-001.wav,SlugCharge_v2-002.wav]
+        volume 1
+        pitch_range [1, 1.4]
+    }
+
+    BigSlugCharge{ #FIX
+        files [BigSlugCharge_v2-001.wav,BigSlugCharge_v2-002.wav]
+        volume 1.2
+        falloff .5
+        pitch_range [1,1.2]
+    }
+
+    FrogJump {  #testlevels: 2d-13, 2xd-4
+        files [frogjump1.wav, frogjump2.wav, frogjump3.wav, frogjump4.wav, frogjump5.wav, frogjump6.wav, frogjump7.wav, frogjump8.wav, frogjump9.wav]
+        volume 1
+        pitch_range [.7, 1.3]
+    }
+
+    FishDash {  #testlevels: 3d-7, 8x-3
+        files [FishCharge-001.wav,FishCharge-002.wav,FishCharge-003.wav,FishCharge-004.wav,FishCharge-005.wav]
+        volume .8
+        pitch_range [.8, 1.2]
+    }
+
+    CannonFire {  #testlevels: 5a-1
+        files [cannon.wav]
+        volume 1
+        pitch_range [.8, 1.20]
+    }
+
+    Shoot {  #testlevels: 5b-6, 5b-20, 5ax-2
+        files [Shotv2-001.wav, Shotv2-002.wav, Shotv2-003.wav]
+        volume 0
+        pitch_range [.5, .8]
+        falloff 1
+    }
+
+    Spit {  #testlevels: 4b-10
+        files [spit1.wav, spit2.wav, spit3.wav, spit4.wav, spit5.wav, spit6.wav, spit7.wav]
+        volume .8
+        pitch_range [.8, 1.2]
+        falloff .7
+    }
+
+    Laser {  #testlevels: 6-15
+        files [laser-001.wav, laser-002.wav, laser-003.wav]
+        volume .8
+        pitch_range [.8, 1.2]
+    }
+
+    Spook {  #testlevels: 6-11, 6-13
+        files [SpookGrow.wav]
+        volume .8
+        falloff .3
+    }
+
+    SkullShatter {  #testlevels: 7x-4
+        files [SkullShatter-001.wav,SkullShatter-002.wav]
+        volume 1
+        pitch_range[.9,1.1]
+    }
+
+    Unlock {  #testlevels: 5a-5x
+        files [unlock.wav]
+        volume 1
+        pitch_range [.8, 1.2]
+    }
+
+    SplatterSplat {  #testlevels: 3xd-6
+        files [meatsmashfast1.wav,meatsmashfast2.wav,meatsmashfast3.wav,meatsmashfast4.wav]
+        volume 1
+        pitch_range [.8, 1.2]
+        falloff .5
+    }
+
+    CheepBounce {  #testlevels: 3-5, 3xu-3
+        files [cheepbounce1.wav, cheepbounce2.wav, cheepbounce3.wav, cheepbounce4.wav, cheepbounce5.wav, cheepbounce6.wav, cheepbounce7.wav, cheepbounce8.wav]
+        volume .7
+        pitch_range [.8, 1.2]
+        falloff .5
+    }
+
+    CreepGrow {  #testlevels: 4b-15
+        files [creep1nopop.wav, creep2nopop.wav, creep3.wav, creep4nopop.wav]
+        volume .9
+        pitch_range [.5, 1.2]
+        falloff .25
+    }
+
+    BouncerSplat {  #testlevels: 4c-7, 4c-8
+        files [medmeat1nopop.wav, medmeat2nopop.wav, medmeat3nopop.wav, medmeat4nopop.wav]
+        volume 1
+        falloff .8
+        pitch_range [.8, 1.2]
+    }
+
+    Thunder {  #testlevels: 3d-1, 7-1
+        files [thunder1.wav, thunder2.wav, thunder3.wav, thunder4.wav, thunder5.wav, thunder7.wav,Thunder9.wav,Thunder10.wav,Thunder11.wav]
+        volume_range [0,1]
+        pitch_range [.8, 1.2]
+        falloff 999
+        pan_falloff 999
+    }
+    
+    Nuke {
+        files [NUKE.wav]
+        volume 2
+        falloff 999
+        pan_falloff 999
+    }
+
+    GhostMove {
+        files [GhostUIMove.wav]
+        falloff 999
+        pan_falloff 999
+    }
+    
+    GhostChoose {
+        files [GhostUIChoose.wav]
+        falloff 999
+        pan_falloff 999
+    }
+    
+    GhostDelete {
+        files [DeleteSave.wav]
+        falloff 999
+        pan_falloff 999
+    }
+    
+    
+    NPCDefault {
+        files [NPC.wav]
+    }
+   
+    
+    NPCSkull {
+        files [SkullNPC.wav]
+    }
+    NPCBlob {
+        files [SquishNPC.wav]
+    }
+    NPCGhost {
+        files [GhostNPC.wav]
+    }
+    
+    
+    NPCSteven {
+        files [StevenHeadWarpNPC.wav]
+    }
+    
+    
+    NPCAether {
+        files [AetherNPC.wav]
+    }
+    NPCGish {
+        files [GishNPC.wav]
+    }
+    NPCIsaac {
+        files [IsaacNPC.wav]
+    }
+    NPCGuppy {
+        files [CatNPC.wav]
+    }
+    NPCStevenCameo {
+        files [StevenNPC.wav]
+    }
+}

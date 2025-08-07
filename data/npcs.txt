@@ -1,0 +1,127 @@
+NPC_TEMPLE1 {
+#words blob
+    movieclip NPCSD1
+    sound_id NPCBlob
+    text [
+        "this shits so good"
+        "so awesome sick awful and fucking stupid"
+        "so dogshit\nbad insane\nits incredible"
+        "best thingy\never made\nit fuckin sucks"
+        "do you mind? im saying words here"
+    ]
+}
+
+NPC_TEMPLE2 {
+#creative blob
+    movieclip NPCSD2
+    sound_id NPCBlob
+    text [
+        "making a thing here"
+        "see this pile?"
+        "its my favorite pile, and i would like to add my thing to it"
+        "even though its not my pile"
+        ". . . am i\ngoing to hell?"
+    ]
+}
+
+NPC_TEMPLE3 {
+#big brain ghost
+    movieclip NPCSG1
+    sound_id NPCGhost
+    text [
+        "i know what you're thinking"
+		"\"you have such a large head\""
+		"be not ashamed, everyone says this"
+		"but lo, they have but a fragment of my knowledge"
+		"i remember everything, ever since the dawn of time"
+		"every single\nevent in history,\ni was a witness to"
+		"that's right, even the one you're thinking of"
+		"i was there, too"
+		"in the background, blending in"
+		"with my big,\nbig head . ."
+		"such knowledge, you may think, would be heavy on the soul"
+		"and you would be right"
+		"but what they never tell you, little one . ."
+		"is that it is also heavy, on the shoulders"
+    ]
+}
+
+NPC_TEMPLE4 {
+#naive blob
+    movieclip NPCSD4
+    sound_id NPCBlob
+    text [
+		". . wow"
+        "isn't it exciting?"
+        "we keep digging and finding more stuff"
+        "uncovering what's hidden beneath the earth"
+        "hitting rock with chisel, finding bone and rune"
+        "like a paint brush drawing a hole into the canvas"
+		"it's rekindling something inside\nof me . ."
+        "hooh . . i hope this feeling never ends"
+    ]
+}
+
+NPC_TEMPLE5 {
+#desecrating ghost
+    movieclip NPCSG2
+    sound_id NPCGhost
+    text [
+        "yes! yes!!"
+        "keep smashing this sacred tomb!!"
+        "give it what it fuckin deserves!!"
+        "erase the past we keep being tied down to!!"
+		"redact it!! delete it!! crush it into little pieces!!"
+        "this is the way! the road to destruction!"
+        "erase me too, while you are at it!!"
+    ]
+}
+
+NPC_TEMPLE6 {
+#fireball blob (fireBAR? whatever)
+    movieclip NPCSD3
+    sound_id NPCBlob
+    text [
+        "these fireballs you see all over the place?"
+        "i did that, with my mind"
+        "its very easy to do actually"
+        "it was something burning within me"
+        "passion"
+        "none of that petty sarcasm or self loathing shit"
+        "no, it was genuine, bursting elation"
+        "i just imagined it taking form"
+        "focused, shaped to my desire"
+        "out of my body, into the real world . . ."
+        "orbiting, around some floaty blocks"
+        "like some sick obstacle course"
+        "*this* is what i was made for!"
+    ]
+}
+
+NPC_TEMPLE7 {
+#history blob
+    movieclip NPCSD5
+    sound_id NPCBlob
+    text [
+        "i have been studying these walls"
+        "see these glyphs? each one of them a hidden meaning"
+        "everything that's ever happened, chiseled into the stone itself"
+        "history, inscribed into a record"
+        "a record spanning\nearth's perimeter"
+        "a record spinning,\nand it plays a song"
+        "this tomb here, a single note in the score"
+        "it's all in the small details, see?"
+        "it's in every building, every wall, and every brick"
+        "every crack, every scratch, and every dent"
+        "and every crack,\nevery scratch,\nthe needle plays"
+        "all part of one melody, cohesive, harmonized"
+        "you might think you have nothing to do with it . ."
+        "but you are leaving a trail too!"
+        "every step you took, every pit you jumped over"
+        "every kidney, every eye, every bone you left behind . ."
+        "it stays right where you left it"
+        ". . . see?"
+        "you are a part of history"
+        "so make sure to leave a mark"
+    ]
+}
