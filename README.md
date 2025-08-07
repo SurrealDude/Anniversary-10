@@ -6,9 +6,18 @@ Unless I die or I don't have enough time to make more than 1 area I guess.
 - Current version: 0.1
 
 ### Areas
-- 1st Area: **Fire Temple**: __A hidden temple deep underground, dim-lit by fire, kindled by our past.__ Prefix: <ins>(sur1 + sur1x)</ins>, ~80% done (100% done content-wise, missing music, needs playtesting, might have some visual changes if needed)
-- 2nd Area: **Rewind Gardens(?)**: __A garden stuck in time, clockwork made of marble.__ 0% done
-- 3rd Area: **Resuscitation(?)**: __An abandoned facility, once on life support, and now revived (one last time.)__ 0% done
+- 1st Area: **Fire Temple**: _A hidden temple deep underground, dim-lit by fire, kindled by our past._
+  - [ ] ~80% done
+    - [X] 100% done content-wise
+    - [ ] Music
+    - [ ] Playtesting
+    - [ ] Might have some visual changes (if needed)
+
+- 2nd Area: **Rewind Gardens(?)**: _A garden stuck in time, clockwork made of marble._
+  - [ ] 0% done
+
+- 3rd Area: **Resuscitation(?)**: _An abandoned facility, once on life support, and now revived (one last time.)_
+  - [ ] 0% done
 
 ### Extra
 Also I think I misunderstood and the area prefix should be an abbreviation of the area's name.
