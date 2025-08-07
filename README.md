@@ -7,6 +7,7 @@ Unless I die or I don't have enough time to make more than 1 area I guess.
 
 ### Areas
 - 1st Area: **Fire Temple**: _A hidden temple deep underground, dim-lit by fire, kindled by our past._
+   <img width="360" height="200" alt="image" src="https://github.com/user-attachments/assets/2d2182cf-1eef-4e1a-bfdf-95158f1b2c13" />
   - [ ] ~80% done
     - [X] 100% done content-wise
     - [ ] Music
