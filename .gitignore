@@ -1,0 +1,9 @@
+# Tein's vanilla files
+TheEnd*.exe
+*.gpak
+
+# Game settings
+settings.txt
+
+# Savefiles
+/saves
