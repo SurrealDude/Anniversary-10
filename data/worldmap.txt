@@ -1,0 +1,74 @@
+pages {
+    lightworld {
+        collectibles 27 //lives (20) + biglives (7)
+    }
+}
+
+meta {
+    default_node FireTemple
+    
+    leftwipes []
+    rightwipes []
+    upwipes []
+    downwipes []
+    stevenheads []
+    steventhreshtumors []
+    stevenlevels []
+	
+    mainworlds [ft] // mainworld
+	
+    cartworlds []
+    headlevel 5a-22
+    bodylevel 5c-21
+    heartlevel 5b-23
+    
+    mute_warpunlock_message [ft-end] // end (?) only if there should be a warp point in the last level
+    
+    game_over_checkpoints []
+    iron_cart_entrypoints []
+    timed_cart_entrypoints []
+    console_entry_levels []
+    nevermore_entry 7-0
+    escape_entry 6-21
+    nevermore_tumorthresh 0
+    timer_bypass_levels []
+    timer_buttonopen_levels []
+    
+    megacart_entry_levels []
+    towercart_entry_levels []
+    cart_lives_overrides []
+    cart_title_overrides []
+    
+    savefile_completion_counter_max 28 // lives (20) + biglives (7) + completion warpoints (1)
+    savefile_completion_warpoints [ft-end] // last level for completion? (if that's a precedent you want to set)
+    save_initiallevel ft-1
+    save_lightspawn ft-1
+    save_darkspawn ft-1
+    save_lightspawnlabel "TEST ONLY"
+    save_darkspawnlabel "TEST ONLY"
+}
+
+nodes {
+    //Fire temple, only the levelgroups part is relevant, of course
+    FireTemple {
+        clipname city
+        entrylevel ft-1
+		page lightworld
+		
+		levelgroups [ft ftx]
+        unlock_condition always_unlocked
+    }
+	
+	// I just put these here so the map icons aren't constantly flashing
+	UNUSED 	{ clipname fields 	}
+    UNUSED 	{ clipname bridge 	}
+    UNUSED 	{ clipname split 	}
+    UNUSED 	{ clipname valley 	}
+    UNUSED 	{ clipname complex 	}
+    UNUSED 	{ clipname wall 	}
+    UNUSED 	{ clipname airship 	}
+    UNUSED 	{ clipname pit 		}
+    UNUSED 	{ clipname hell 	}
+    UNUSED 	{ clipname future 	}
+    UNUSED 	{ clipname steve 	}
+}

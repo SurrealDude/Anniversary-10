@@ -1,4 +1,4 @@
-sur1 {
+ft {
 	area_name "Fire Temple"
     area_label_frame 1
     tile_graphics TileFireTemple
@@ -65,7 +65,7 @@ sur1 {
 	}
 }
 
-sur1x {
+ftx {
 	area_name "Fire Temple"
     area_label_frame 1
     tile_graphics TileFireTemple

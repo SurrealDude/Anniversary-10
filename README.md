@@ -1,9 +1,10 @@
 # SurrealDude's Anni 10 area/s
 This repository will include my 3 TEiN Anniversary 10 areas.
 Unless I die or I don't have enough time to make more than 1 area I guess.
+Only the first area is playable, I won't work on the other two right now.
 
 ## Info
-- Current version: 0.1
+- Current version: 0.2
 
 ### Areas
 - 1st Area: **Fire Temple**: _A hidden temple deep underground, dim-lit by fire, kindled by our past._
@@ -19,10 +20,6 @@ Unless I die or I don't have enough time to make more than 1 area I guess.
 
 - 3rd Area: **Resuscitation(?)**: _An abandoned facility, once on life support, and now revived (one last time.)_
   - [ ] 0% done
-
-### Extra
-Also I think I misunderstood and the area prefix should be an abbreviation of the area's name.
-I might change 'sur1' to 'fir'/'ft' if that's the case, do let me know. The deco didn't end up playing a big role for the first area anyways.
 
 ## Anyway
 That's about it for now, we'll see. Two years is a long time.

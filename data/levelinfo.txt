@@ -1,34 +1,34 @@
-"sur1-1" {name="Fire Temple 1" id=1} #life
-"sur1-10" {name="Fire Temple 10" id=10} #life
-"sur1-11" {name="Fire Temple 11" id=11} #life
-"sur1-12" {name="Fire Temple 12" id=12} #life
-"sur1-13" {name="Fire Temple 13" id=13} #life
-"sur1-14" {name="Fire Temple 14" id=14} #life
-"sur1-15" {name="Fire Temple 15" id=15} #life
-"sur1-16" {name="Fire Temple 16" id=16} #life
-"sur1-17" {name="Fire Temple 17" id=17} #life
-"sur1-18" {name="Fire Temple 18" id=18} #life
-"sur1-19" {name="Fire Temple 19" id=19} #life
-"sur1-2" {name="Fire Temple 2" id=2} #life
-"sur1-20" {name="Fire Temple 20" id=20} #life
-"sur1-3" {name="Fire Temple 3" id=3} #life
-"sur1-4" {name="Fire Temple 4" id=4} #life
-"sur1-5" {name="Fire Temple 5" id=5} #life
-"sur1-6" {name="Fire Temple 6" id=6} #life
-"sur1-7" {name="Fire Temple 7" id=7} #life
-"sur1-8" {name="Fire Temple 8" id=8} #life
-"sur1-9" {name="Fire Temple 9" id=9} #life
-"sur1-end" {name="Fire Temple" id=-1}
-"sur1x-1" {name="???" id=-1}
-"sur1x-2" {name="???" id=1} #biglife
-"sur1x-3" {name="???" id=-1}
-"sur1x-4" {name="???" id=2} #biglife
-"sur1x-5" {name="???" id=3} #biglife
-"sur1x-6" {name="???" id=4} #biglife
-"sur1x-7" {name="???" id=-1}
-"sur1x-8" {name="???" id=-1}
-"sur1x-9" {name="???" id=5} #biglife
-"sur1x-10" {name="???" id=-1}
-"sur1x-11" {name="???" id=6} #biglife
-"sur1x-12" {name="???" id=-1}
-"sur1x-13" {name="???" id=7} #biglife
+"ft-1" {name="Fire Temple 1" id=1} #life
+"ft-10" {name="Fire Temple 10" id=10} #life
+"ft-11" {name="Fire Temple 11" id=11} #life
+"ft-12" {name="Fire Temple 12" id=12} #life
+"ft-13" {name="Fire Temple 13" id=13} #life
+"ft-14" {name="Fire Temple 14" id=14} #life
+"ft-15" {name="Fire Temple 15" id=15} #life
+"ft-16" {name="Fire Temple 16" id=16} #life
+"ft-17" {name="Fire Temple 17" id=17} #life
+"ft-18" {name="Fire Temple 18" id=18} #life
+"ft-19" {name="Fire Temple 19" id=19} #life
+"ft-2" {name="Fire Temple 2" id=2} #life
+"ft-20" {name="Fire Temple 20" id=20} #life
+"ft-3" {name="Fire Temple 3" id=3} #life
+"ft-4" {name="Fire Temple 4" id=4} #life
+"ft-5" {name="Fire Temple 5" id=5} #life
+"ft-6" {name="Fire Temple 6" id=6} #life
+"ft-7" {name="Fire Temple 7" id=7} #life
+"ft-8" {name="Fire Temple 8" id=8} #life
+"ft-9" {name="Fire Temple 9" id=9} #life
+"ft-end" {name="Fire Temple" id=-1}
+"ftx-1" {name="???" id=-1}
+"ftx-2" {name="???" id=1} #biglife
+"ftx-3" {name="???" id=-1}
+"ftx-4" {name="???" id=2} #biglife
+"ftx-5" {name="???" id=3} #biglife
+"ftx-6" {name="???" id=4} #biglife
+"ftx-7" {name="???" id=-1}
+"ftx-8" {name="???" id=-1}
+"ftx-9" {name="???" id=5} #biglife
+"ftx-10" {name="???" id=-1}
+"ftx-11" {name="???" id=6} #biglife
+"ftx-12" {name="???" id=-1}
+"ftx-13" {name="???" id=7} #biglife
