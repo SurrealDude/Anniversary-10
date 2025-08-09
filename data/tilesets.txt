@@ -3,7 +3,7 @@ ft {
     area_label_frame 1
     tile_graphics TileFireTemple
     overlay_graphics Overlayscaves
-    background_graphics bgsolid
+    background_graphics templebg
 	palette 1
 	
 	fx_shader lavaripples
@@ -70,7 +70,7 @@ ftx {
     area_label_frame 1
     tile_graphics TileFireTemple
     overlay_graphics Overlayscaves
-    background_graphics bgsolid
+    background_graphics templebg
 	palette 1
 	
 	fx_shader lavaripples
