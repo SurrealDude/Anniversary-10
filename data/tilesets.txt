@@ -1,0 +1,74 @@
+rg {
+    area_name "Rewind Gardens"
+    tile_graphics TileGarden
+    overlay_graphics Overlaysfield
+    background_graphics ch4abg
+    palette 1
+
+    fx_shader_mid radiation_garden
+    midfx_graphics SolidBox
+    midfx_layer 1
+	
+	npc_1 NPC_GARDEN1
+	npc_2 NPC_GARDEN2
+	npc_3 NPC_GARDEN3
+
+    decoration_1 TileFieldDeco1
+    decoration_2 TileFieldDeco2
+
+    global_particle_1 leaves_rewind
+    global_particle_2 wind_rewind
+    global_particle_3 cloudwind_rewind
+	tile_particle_1 dust_rewind
+	
+	music [garden_intro.ogg, garden_loop.ogg]
+	ambience wind.ogg
+}
+
+rgxu {
+    area_name "Rewind Gardens"
+    tile_graphics TileGarden
+    overlay_graphics Overlaysfield
+    background_graphics ch4abg
+    palette 1
+
+    fx_shader_mid radiation_garden
+    midfx_graphics SolidBox
+    midfx_layer 1
+
+    decoration_1 TileFieldDeco1
+    decoration_2 TileFieldDeco2
+
+    global_particle_1 leaves_rewind
+    global_particle_2 wind_rewind
+    global_particle_3 cloudwind_rewind
+	tile_particle_1 dust_rewind
+	
+	music [gymnopedies_intro.ogg, gymnopedies_loop.ogg]
+	ambience wind.ogg
+    stop_previous_music false
+}
+
+rgxd {
+    area_name "Rewind Gardens"
+    tile_graphics TileGarden
+    overlay_graphics Overlaysfield
+    background_graphics ch4abg
+    palette 1
+
+    fx_shader_mid radiation_garden
+    midfx_graphics SolidBox
+    midfx_layer 1
+
+    decoration_1 TileFieldDeco1
+    decoration_2 TileFieldDeco2
+
+    global_particle_1 leaves_rewind
+    global_particle_2 wind_rewind
+    global_particle_3 cloudwind_rewind
+	tile_particle_1 dust_rewind
+	
+	music [hmk_secret_intro.ogg, hmk_secret_loop.ogg]
+	ambience wind.ogg
+    stop_previous_music false
+}

@@ -1,0 +1,159 @@
+NPC_GARDEN1 {
+#talking statue
+movieclip NPC1
+    sound_id NPCSkull
+    text [
+        "\n\n. . . boo"
+		"haha, gotcha!"
+		"thats right, im a talking statue"
+		"wasnt always that way, i reckon"
+		"see, i cant remember anything from my past life"
+		"one day i just woke up like this"
+		"its probably a curse or whatever"
+		"this garden seems like the kinda place where that would happen"
+		"the clanking of marble gears against each other . ."
+		"the leaves, inexplicably falling back into place . ."
+		"in cycles, repeating infinitely . ."
+		"i tell ya, somethin just aint right here"
+		"but im not smart enuff to figure it out"
+		"thats a statue for ya!"
+    ]
+}
+
+NPC_GARDEN2 {
+#rock hard statue
+movieclip NPC1
+    sound_id NPCSkull
+    text [
+        "god"
+		"it happened, then"
+		"just when i least spected it"
+		"bricked"
+		"rock hard"
+		"in front of everyone"
+		"made a fool, fool of myself"
+		"let me be, in shambles"
+		"the doctor said its staying like that"
+    ]
+}
+
+NPC_GARDEN3 {
+#talking statue
+movieclip NPC1
+    sound_id NPCSkull
+    text [
+        "do you ever feel observed?"
+		"like . . . right now for example"
+		"well . . . do you?"
+		"thats cause im lookin"
+		"betcha didnt notice"
+		"until i said it just now"
+		"but its true, yup"
+		"my eyes might be made of stone, but they still let me see"
+		"just like these pillars of eyes"
+		"but once they see you, sum shit will go down"
+		"that wont happen with me, nope"
+		"my observation is only of the passive kind"
+		"its a skill i worked really hard on"
+		". . . yup"
+    ]
+}
+
+NPC_GARDEN0001 {
+#told you blob
+    movieclip NPCSB1
+    sound_id NPCBlob
+    text [
+        "i warned you all!"
+		"i told you, this was going to happen!"
+		"and you didn't believe me, tossed me aside!"
+		"\"you're not making sense\" you said!!"
+		"\"come on barry, that won't happen\""
+		"and \"honey, you're scaring the kids\""
+		"well? who's laughing now?!"
+    ]
+}
+
+NPC_GARDEN0002 {
+#clock ghost
+    movieclip NPCSG3
+    sound_id NPCGhost
+    text [
+        "this has gone on for too long"
+		"the ticking, the gears rotating on their axis"
+		"every possible combination of hands on a clock"
+		"played out, and then rehearsed"
+		"every position of atoms in the universe, on a fixed loop"
+		"i used to keep track of them, but they started blurring"
+		"the lines, the minutes, the hours"
+		"i dont know how long a day is anymore"
+		"i dont even bother looking up at the sky"
+		"time has lost all its meaning, for all of us"
+		". . . someone needs to stop it"
+		"its what we would've liked . . ."
+    ]
+}
+
+NPC_GARDEN0003 {
+#success blob
+    movieclip NPCSD6
+    sound_id NPCBlob
+    text [
+        "you should give up now that you can"
+		"if you keep trying youll eventually succeed"
+		"and then it will be far too late"
+		"im talking from experience"
+		"look at me, basking in my glory, showered in my riches"
+		"no, you dont want to end up like me"
+		"so give up now, chop chop"
+    ]
+}
+
+NPC_GARDEN0004 {
+#tic tac blob
+    movieclip NPCSB2
+    sound_id NPCBlob
+    text [
+        "click, clack, i hear the gears turning"
+		"in your head maybe, not mine"
+		"the lights are on, but everyones dead!"
+		"i dont need to have thoughts anymore!"
+		"in my book "under" standing is "over" rated"
+		"lets see when they invent over standing"
+		"then we can talk"
+    ]
+}
+
+NPC_GARDEN0005 {
+#bored blob
+    movieclip NPCSB3
+    sound_id NPCBlob
+    text [
+        "i used to be excited for midnight to strike"
+		"the first few times were the most fun ive ever had"
+		"the bells ringing, the clocks freezing"
+		"and sometimes, a little bird would pop out!"
+		"but no more, ive seen it far too many times"
+		"the same routines, the same patterns"
+		"its gotten old . . . its gotten so fucking old"
+    ]
+}
+
+NPC_GARDEN0006 {
+#skilled ghost
+    movieclip NPCSG4
+    sound_id NPCBlob
+    text [
+        "haha! i love singing!"
+		"my friends love it when i sing!"
+		"ive practiced, put years into it!"
+		"like, soooo many years!"
+		"so many that, you would think, ive been wasting my time!"
+		"but my friends, they love it!!"
+		". . . which friends?"
+		"oh, you know! haha!"
+		"they come around, every now and then!"
+		"and im still practicing, i will get even better!"
+		"i promise! it will be worth it!!"
+    ]
+}

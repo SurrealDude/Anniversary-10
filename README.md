@@ -1,16 +1,25 @@
 # SurrealDude's Anni 10 area/s
-This repository will include my 3 TEiN Anniversary 10 areas.
-Unless I die or I don't have enough time to make more than 1 area I guess.
+This branch will only include the Rewind gardens area.\
+Once this area is finished, I'll compare & pull request it into the main/head branch (which will include all of my areas eventually (if I actually make more than 1, ofc)).
 
 ## Info
-- Current version: 0.0
+- Current version: (0.0)
 
-### Areas
-- 1st Area: **Fire Temple**: _A hidden temple deep underground, dim-lit by fire, kindled by our past._
-  - [ ] (see the ***firetemple*** branch for current progress)
+### Area
+- 2nd Area: **Rewind Gardens(?)**: _A garden stuck in time, clockwork made of marble._\
+  <img width="360" height="200" alt="Screenshot of Rewind Gardens 1, to showcase the tileset." src="https://github.com/user-attachments/assets/61fb6a3f-0bc6-467f-9a6c-2bb12c1cfda3" />
+  - [ ] ~1% done
+    - [X] Tileset, palette, particles
+    - [ ] Main levels (0%)
+    - [ ] Secret levels (0%)
+    - [ ] Music
+    - [ ] Playtesting
 
-- 2nd Area: **Rewind Gardens(?)**: _A garden stuck in time, clockwork made of marble._
-  - [ ] 0% done
-
-- 3rd Area: **Resuscitation(?)**: _An abandoned facility, once on life support, and now revived (one last time.)_
-  - [ ] 0% done
+## Anyway
+I'm putting the second area's tileset up, now that I have it.\
+As you know, making the tileset is the easiest (and sometimes more fun) part of making a TEiN area.\
+Don't get it twisted, I'm not working on this area for months. But it feels wrong to have these files in my computer.\
+\
+Like, what if it explodes.\
+\
+... That would suck.
