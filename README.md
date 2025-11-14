@@ -3,7 +3,7 @@ This branch only includes the Fire temple area.\
 Once this area is finished, I'll compare & pull request it into the main/head branch (which will include all of my areas eventually (if I actually make more than 1, ofc)).
 
 ## Info
-- Current version: 0.6
+- Current version: 0.7
 
 ### Area
 - 1st Area: **Fire Temple**: _A hidden temple deep underground, dim-lit by fire, kindled by our past._
