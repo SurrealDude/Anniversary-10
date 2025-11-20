@@ -1,0 +1,75 @@
+debris {
+	movieclip Rock2
+	max_particles 500
+	layer 2
+	livebounds [-10, 64, -10, 42]
+	prewarm 0
+	batched false
+	
+	#emitter properties
+	emit_rate [.3,1]
+	emit_amount [1,4]
+	emit_direction [0, -1]
+	emit_spread 30
+	emit_box [1, 1]	  #54 for "level width", 32 for "level height"	
+	emit_offset [0,.5]   #27,16 for middle of the level. 0,0 for bottom left. 54,32 for upper right. this one sets it as a strip at the top 
+	
+	#particle animation properties
+	particle_lifetime 5
+	initial_speed 5
+	initial_rotation [0,360]
+	rotation_speed [-1080, 1080]
+	force [0, -15]
+	friction 1
+	size_start 1
+	size_end 1
+	alpha_start 1
+	alpha_end 1
+	face_moving_direction false
+	speed_scale 0
+	inherit_speed 1
+	tags [collide_tile]
+}
+
+debris_slow {
+	inherit debris
+	
+	emit_rate [.3,.5]
+	emit_spread 20
+	size_start 0.7
+	size_end 0.7
+	force [0, -6]
+}
+
+ember_ring {
+	movieclip spark
+	max_particles 500
+	layer 1
+	livebounds [-10, 64, -10, 42]
+	prewarm 0
+	batched false
+	
+	#emitter properties
+	emit_rate [3,13]
+	emit_amount [1,2]
+	emit_direction [0, -1]
+	emit_spread 270
+	emit_box [0, 0]	  #54 for "level width", 32 for "level height"	
+	emit_offset [0,1.1]   #27,16 for middle of the level. 0,0 for bottom left. 54,32 for upper right. this one sets it as a strip at the top 
+	
+	#particle animation properties
+	particle_lifetime 2
+	initial_speed 1.5
+	initial_rotation [0,360]
+	rotation_speed [-1080, 1080]
+	force [0, -1]
+	friction 1
+	size_start [2, 3]
+	size_end 0
+	alpha_start 1
+	alpha_end 0
+	face_moving_direction false
+	speed_scale 0
+	inherit_speed 1
+	tags [collide_tile]
+}
